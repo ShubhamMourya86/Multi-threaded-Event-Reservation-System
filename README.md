@@ -1,3 +1,3 @@
 # Multi-threaded-Event-Reservation-System
 
-This project implements a concurrent event reservation system using POSIX threads (pthread). The system supports booking, canceling, and querying event tickets through multiple worker threads. It uses mutexes and condition variables to ensure thread safety and proper synchronization.
+This project involves the implementation of a concurrent event reservation system using POSIX threads (pthread). The system is designed to handle multiple operations, including booking, canceling, and querying event tickets, all executed concurrently by multiple worker threads. To ensure thread safety and proper synchronization among threads, the project employs mutexes and condition variables. These synchronization mechanisms help prevent race conditions and ensure that shared resources, such as event tickets, are managed correctly in a multi-threaded environment.
